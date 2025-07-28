@@ -70,7 +70,7 @@ def fake_sms(amount, card, balance=None, bank=None):
     if balance is None:
         balance = get_balance(card)
     now = datetime.now().strftime("%Y/%m/%d - %H:%M")
-    return f"[{bank}] {amount:,} ریال واریز شد.
+    return f"[{bank}] {amount:,} ریال واریز شد.\\nمانده: {balance:,} ریال\\nتاریخ: {now}"
 مانده: {balance:,} ریال
 تاریخ: {now}"
 
