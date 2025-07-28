@@ -10,14 +10,14 @@ import random
 app = Flask(__name__)
 
 SMS_TOKEN = "supersecrettoken"
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("8357876689:AAF1aFLFJgGreSFdnKzE4Gy2jNFiO0jxbqk")
 
 USERS_DB = 'users.json'
 PENDING_DB = 'pending.json'
 CARD_DB = 'card_db.json'
 BALANCE_DB = 'balances.json'
 
-ADMIN_ID = 123456789
+ADMIN_ID = 6590191539
 
 bot = telebot.TeleBot(BOT_TOKEN)
 user_data = {}
